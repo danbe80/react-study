@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vanilla JS</title>
+</head>
+
+<body>
+  <h3>total counter : 0</h3>
+  <button id="btn">click me</button>
+  <script>
+    let counter = 0;
+    const h3 = document.querySelector("h3");
+    const btn = document.getElementById("btn");
+
+    function onClick() {
+      counter += 1;
+      h3.innerText = `total counter: ${counter}`;
+    }
+    btn.addEventListener("click", onClick);
+
+  </script>
+</body>
+
+</html>
