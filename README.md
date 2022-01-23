@@ -9,3 +9,6 @@ undefind is the initial value and the second argument is a function that changes
 modifier() -> this function is changes the value
 
 modifier function으로 state를 바꿀 때 rendering이 새로운 data를 가지고 일어남
+
+setCounter((current) => current + 1) is safer than setCounter(counter + 1)
+modifier(function) more than safe
