@@ -74,3 +74,12 @@ option에 value를 설정
 ```
 
 JSX에 js를 사용하려면 {중괄호}를 사용
+
+props란?
+-> 부모 컴포넌트로부터 자식 컴포넌트에 데이터를 보낼 수 있게 해주는 방법
+component에 보내지는 argument
+
+HTML tag에 들어가는 ex) onClick 은 이벤트 리스너지만 JSX에 컴포넌트에 ex) onClick은 이벤트 리스너가 아니라 props의 이름이다.
+
+propTypes => prop에 type을 정해놓고 data를 잘못 보내도 console에 오류로 보여지게끔 한다.
+오류 확인이 propType의 사용 이유
